@@ -1,4 +1,7 @@
 .PHONY: install
-install:
-	chmod +x ./install.sh
-	./install.sh
+install: lnsrc
+
+.PHONY: test
+test: pytest
+
+include $$HOME/lib/lnsrc.mk

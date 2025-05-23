@@ -2,6 +2,8 @@
 # General Settings
 # -------------------
 
+source "$HOME/etc/*.env"
+
 # Use UTF-8 encoding
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
@@ -68,8 +70,7 @@ setopt NO_CASE_GLOB          # Case-insensitive globbing
 # -------------------
 
 
-# Default editor
-export EDITOR='nvim'
+
 
 # Less colors
 export LESS='-R'
